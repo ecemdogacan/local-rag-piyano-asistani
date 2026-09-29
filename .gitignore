@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Calisirken otomatik olusan veritabani (herkes kendi belgeleriyle
+# kendi veritabanini olusturur, bu yuzden repo'ya eklenmez)
+data/rag.db
+
+# Yerel ortam / editor dosyalari
+.venv/
+venv/
+.vscode/

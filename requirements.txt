@@ -1,0 +1,16 @@
+# Local RAG Assistant - bagimliliklar
+#
+# Bu proje gercek modu (varsayilan) icin Microsoft Foundry Local runtime'ini
+# ve onun Python SDK'sini gerektirir. Foundry Local runtime bir Python paketi
+# degildir, ayri kurulur (asagiya bakin).
+
+foundry-local-sdk
+
+# Kurulum adimlari (Windows/macOS, sadece kendi bilgisayarinizda calisir):
+#   1. Foundry Local runtime'i kurun:
+#        winget install Microsoft.FoundryLocal      (Windows)
+#   2. Bu Python paketini kurun:
+#        pip install -r requirements.txt
+#
+# Not: --mock modunda (python main.py --mock) foundry-local-sdk hic
+# gerekmez, sadece standart kutuphane (sqlite3, math, re, hashlib) kullanilir.
